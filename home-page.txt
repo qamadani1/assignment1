@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home-Page</title>
+
+    <link href="style.css" type="text/css"
+    rel="stylesheet" />
+
+    <style>
+
+
+        body {
+            background-color: white;
+        }
+
+        div.page {
+            margin: 0px 85px 0px 85px;
+        }
+
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin:0px;
+            padding: 0x;
+        }
+
+        nav {
+            width: 1130px;
+            height: 120px;
+            background-color: maroon;
+            border-radius: 20px;
+        }
+
+        div nav ul li {
+            margin: 10px 0px 0px 0px;
+            display: inline-block;
+            line-height: 130px;
+            vertical-align: middle;
+            padding: 0px 20px 0px 20px;
+        }
+
+
+
+        img.logo {
+            width: 230px;
+            height: 100px;
+
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: goldenrod;
+            font-size: 25px;
+
+        }
+
+        img.front-image {
+            width: 1090px;
+            height: 550px;
+            margin: 0px 0px ;
+        }
+
+        p {
+            font-size: 25px;
+        }
+        .mid-div {
+            margin: 20px;
+            width: 1090px;
+        }
+
+        div.last {
+            width: 1130px;
+            background-color: maroon;
+            color: goldenrod;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+        <div class="page">
+            <nav>
+
+                <ul>
+                    <li> <a href="#"><img src="logo.png" class="logo"> </a> </li>
+                    <li class="header-li"> <a href="Home-page.html" class="head"> HOME </a> </li>
+                    <li class="header-li"> <a href="About-page.html" class="head"> ABOUT </a> </li>
+                    <li class="header-li"> <a href="Portfolio-page.html" class="head"> PORTFOLIO </a> </li>
+                    <li class="header-li"> <a href="Contact-page.html" class="head"> CONTACT </a> </li>
+                </ul>
+            </nav>
+                <div class="mid-div">
+            <img src="large-home-pic.jpg" class="front-image">
+
+            <br>
+            <br>
+
+            <p>STC is an innovator in the digital world, we help our clients identify new opportunities, lead
+                change, and differentiate their brand. Our process is driven by data analysis coupled with a
+                deep understanding of the customer experience. Whether clients need digital marketing
+                services or consulting, they come to us to present themselves effectively in the digital
+                arena. STC is an innovator in the digital world, we help our clients identify new opportunities, lead
+                change, and differentiate their brand. Our process is driven by data analysis coupled with a
+                deep understanding of the customer experience. Whether clients need digital marketing
+                services or consulting, they come to us to present themselves effectively in the digital
+                arena.</p>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+            <div class="last">
+                <p> Copyright © 2019. All rights reserved. </p>
+            </div>
+</body>
+
+</html>
